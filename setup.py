@@ -12,7 +12,7 @@ setup(name='spellux',
       author_email='christoph@purschke.info',
       license='MIT',
       packages=['spellux'],
-      install_requirements=requirements,
+      install_requires=requirements,
       zip_safe=False,
       include_package_data=True,
       python_requires=">=3.6")
